@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Coil Scribe</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>
+        Coil Scribe
+    </h1>
+    <br>
+    <ul th:each="item : ${listItems}">
+        <li th:text="${item.getDescription()}"></li>
+    </ul>
+</body>
+</html>
