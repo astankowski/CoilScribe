@@ -1,6 +1,5 @@
 package io.github.astankowski.coilscribe.list;
 
-import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Generated;
 import lombok.Getter;
